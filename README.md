@@ -1,6 +1,10 @@
 # WT32-SC01-Exp
 Experiment with WT32-SC01 getting touch and rendering to work - not clever, not pretty but works! :)
 
-# Requires the following libraries:
+Now uses platformio as using the Arduino IDE was causing folks too many issues.
 
-https://github.com/Bodmer/TFT_eSPI
+# Building
+
+* If you're using vscode, install platformio extension and build and upload.
+
+* If you're using platformio on the command line, examples for building and uploaded provided in build.sh/upload.sh
