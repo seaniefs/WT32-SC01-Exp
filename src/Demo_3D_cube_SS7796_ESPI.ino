@@ -167,8 +167,8 @@ void RenderImage( void)
 // only needs to be called if Xan or Yan are changed.
 void SetVars(void)
 {
-  float Xan2, Yan2, Zan2;
-  float s1, s2, s3, c1, c2, c3;
+  float Xan2, Yan2;
+  float s1, s2, c1, c2;
 
   Xan2 = Xan / fact; // convert degrees to radians.
   Yan2 = Yan / fact;

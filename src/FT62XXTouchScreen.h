@@ -123,10 +123,10 @@
         uint16_t touchX = i2cdat[0x05] & 0x0F;
         touchX <<= 8;
         touchX |= i2cdat[0x06];
-        uint16_t touchID = i2cdat[0x05] >> 4;
       
         #ifdef TOUCHSCREEN_DEBUG
           Serial.println();
+          uint16_t touchID = i2cdat[0x05] >> 4;
           for (uint8_t i = 0; i < touches; i++) {
             Serial.print("ID #");
             Serial.print(touchID);
