@@ -1,2 +1,2 @@
 #!/bin/bash
-pio run -t upload
+pio run -c platformio.ini -d . --target upload
